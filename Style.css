@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAVE THE GIRL CHILD FOUNDATION </title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js" integrity="sha512-b6lGn9+1aD2DgwZXuSY4BhhdrDURVzu7f/PASu4H1i5+CRpEalOOz/HNhgmxZTK9lObM1Q7ZG9jONPYz8klIMg==" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+         <div class="navBar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+<marquee behavior="alternate" BGCOLOR=aqua><h1><b><marquee behavior="scroll" direction="up" scrollamount="2">SAVE THE GIRL CHILD</marquee>
+</b></h1></marquee>
+</a> 
+
+             </nav>
+    </div>
+
+    <div class="header">
+        <header>
+            <div id="slideshow">
+                <div> <img src="C:\Users\Sanjana Gupta\Desktop\WhatsApp Image 2021-06-09 at 12.48.15.jpeg" width="500" height="500" class="d-block w-100" alt=""> </div>
+
+            </div>
+        </header>
+    </div>
+<br>
+
+    <div id="about" class="about">
+
+        <h2 class="text-center">About Us</h2>
+        <p>
+             Discrimination against girls in India has been going on since ages now. Even today, there are several sections of the Indian society where the girl child is treated as a burden. While several privileges are given to the boys; girls are often restricted to the confines of house and given very little or no opportunities to learn and grow in life. It is a matter of great shame that cases of female infanticide are still reported. As per the figures of 2011 census, there are just 918 girls in India for 1000 boys. In such a scenario, the role of the government and NGOs becomes all the more important in order to ensure that girls are allowed to be born and flourish in life.
+        </p>
+    </div>
+
+    <div class="donate" id="donate">
+        <h2>Contribute Us</h2><br>
+        <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HKwzC7Riompsd0" async> </script> </form>
+    </div>
+
+    <div id="footer" class="footer">
+        <p style="color: white;">© Copyright 2021 , All rights reserved.</p>
+
+    </div>
+
+</body>
+</html>
+<style>
+    *{
+        margin:0;
+    }
+
+    .navbar{
+        padding: 20px;
+    }
+
+    .header{
+        opacity: 0.7;
+        height:400px;
+        width: 100%;
+        margin-bottom:20px;
+    }
+
+    #slideshow {
+    position: relative;
+    width: 100%;
+    }
+
+    .form-control{
+        width: 50%;
+        margin: 0 380px 0 380px;
+        border-radius: 40px;
+        padding: 25px;
+    }
+
+    .donate{
+        text-align: center;
+        margin-top: 1px;
+        padding:50px;
+    }
+
+    .about{
+        margin: 150px 100px 100px 100px;
+        padding: 50px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+
+    .footer
+    {
+        padding: 20px;
+        text-align: center;
+        background-color:#26272b;
+    }
+    .footer a{
+        /* font-size: larger; */
+        margin: 50px;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        transition: 1s;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .footer a:hover{
+        color: black;
+        background-color: white;
+    }
+
+
+    .btn{
+        border: 0;
+        position: relative;
+        padding: 15px 25px;
+        margin: 50px 0;
+        color:white;
+        border-radius: 50px;
+        background: linear-gradient(90deg,#0162c8,#55e7fc);
+    }
+
+    .btn:hover{
+        color:white
+    }
+
+
+   input[type="number"]::-webkit-outer-spin-button,
+   input[type="number"]::-webkit-inner-spin-button {
+           -webkit-appearance: none;
+           margin: 0;
+       }
+
+    input[type="number"] {
+       -moz-appearance: textfield;
+       }
+
+
+</style>
